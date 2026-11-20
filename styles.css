@@ -1189,8 +1189,43 @@ h1 {
     min-height: 260px;
   }
 
+  .price-card {
+    min-width: 0;
+    padding: 1rem;
+  }
+
+  .table-scroll {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .rate-table {
-    min-width: 390px;
+    width: 100%;
+    min-width: 0;
+    table-layout: fixed;
+    font-size: 0.78rem;
+  }
+
+  .rate-table th,
+  .rate-table td {
+    padding: 0.6rem 0.25rem;
+  }
+
+  .rate-table tbody th {
+    width: 46%;
+  }
+
+  .rate-table tbody td {
+    width: 54%;
+  }
+
+  .rate-table tbody td strong,
+  .rate-table tbody td small {
+    white-space: normal;
+  }
+
+  .rate-table tbody td strong {
+    line-height: 1.35;
   }
 
   .included {
