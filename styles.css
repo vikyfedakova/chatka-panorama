@@ -546,7 +546,22 @@ h1 {
   display: block;
   margin-bottom: 0.25rem;
   color: #718b73;
-  font-size: 1.55rem;
+}
+
+.amenity-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-inline: auto;
+}
+
+.amenity-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .amenity-card h4 {
@@ -748,11 +763,21 @@ h1 {
   display: grid;
   width: 2.4rem;
   height: 2.4rem;
+  flex: 0 0 2.4rem;
   place-items: center;
   border-radius: 50%;
   color: var(--forest);
   background: var(--sage-light);
-  font-size: 1.2rem;
+}
+
+.category-icon svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .gallery-group + .gallery-group {
